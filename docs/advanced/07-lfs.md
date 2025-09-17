@@ -1,3 +1,9 @@
-# Git LFS
+# Git LFS (Large Files)
 
-Track large files.
+```bash
+git lfs install
+git lfs track "*.png"
+git add .gitattributes
+git add image.png
+git commit -m "track with LFS"
+```

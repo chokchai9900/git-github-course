@@ -1,3 +1,16 @@
 # Ignore & Attributes
 
-.gitignore and .gitattributes examples.
+**.gitignore**
+```
+node_modules/
+dist/
+*.log
+.env
+.DS_Store
+```
+
+**.gitattributes**
+```
+* text=auto
+*.lock binary
+```

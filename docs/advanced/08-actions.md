@@ -1,3 +1,12 @@
-# GitHub Actions
+# CI with GitHub Actions
 
-Setup CI/CD.
+```yaml
+name: ci
+on: [pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Run your tests here"
+```

@@ -1,16 +1,20 @@
-# Intro to Git
+# What is Git? Concepts & Install
 
-Git is a distributed version control system.
+Git is a **distributed version control system (DVCS)**.
 
-## Key Concepts
-- Repository, Commit, Branch, Merge, Remote
+**Core Concepts**
+- Repo → project history (`.git/`)
+- Commit → snapshot + message
+- Branch → pointer to history
+- Merge/Rebase → integrate changes
+- Remote → GitHub or other host
 
-## Install
+**Install**
 - macOS: `brew install git`
-- Windows: download from https://git-scm.com
+- Windows: https://git-scm.com
 - Linux: use your package manager
 
-Check version:
+Check:
 ```bash
 git --version
 ```

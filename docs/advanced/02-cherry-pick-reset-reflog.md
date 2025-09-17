@@ -1,3 +1,7 @@
-# Cherry-pick & Reset
+# Cherry‑pick, Reset, Reflog
 
-Use `git cherry-pick`, `git reset`.
+```bash
+git cherry-pick <sha>
+git reset --soft|--mixed|--hard <ref>
+git reflog
+```

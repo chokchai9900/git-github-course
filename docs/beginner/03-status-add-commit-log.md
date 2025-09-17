@@ -2,7 +2,8 @@
 
 ```bash
 git status
-git add file.txt
+git add <file>
 git commit -m "message"
-git log --oneline --graph
+git log --oneline --graph --decorate
+git show HEAD
 ```

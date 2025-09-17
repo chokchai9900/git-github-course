@@ -1,10 +1,11 @@
-# Git & GitHub Course (Markdown Website)
+# Git & GitHub Course (Minimal Site)
 
-This repository contains a **Markdown-based website** ready for GitHub Pages, designed to teach Git and GitHub from **Beginner → Advanced**.
+This is a **minimal, distraction-free** Markdown website for a Git & GitHub course (Beginner → Advanced).
 
-## How to publish on GitHub Pages
-1. Create a new GitHub repository and push this project.
+## Publish on GitHub Pages
+1. Create a new repo and push this project.
 2. Go to **Settings → Pages**.
-3. Under **Source**, select **Deploy from a branch**.
-4. Choose branch (e.g., `main`) and **`/docs` folder** as the Pages root, then **Save**.
-5. Wait for Pages to build; your site will be available at `https://<your-username>.github.io/<repo-name>/`.
+3. Source: **Deploy from a branch** → Branch: `main` (or your default), Folder: `/docs` → **Save**.
+4. Wait for the build; the site appears at your Pages URL.
+
+> We use the built-in **Minimal** theme with a tiny custom CSS.

@@ -1,8 +1,11 @@
 title: Git & GitHub Course
-description: Learn Git & GitHub from Beginner to Advanced
+description: Minimal, focused learning path from beginner to advanced.
 theme: jekyll-theme-minimal
 markdown: kramdown
-
-# Optional: custom logo
-logo: /assets/logo.png
-show_downloads: false
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+plugins:
+  - jekyll-remote-theme
+remote_theme: pages-themes/minimal@v0.2.0

@@ -1,3 +1,8 @@
 # Interactive Rebase
 
-Use `git rebase -i` to clean history.
+Polish commits before merge.
+
+```bash
+git rebase -i HEAD~5
+# pick / reword / squash / fixup
+```
