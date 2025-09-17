@@ -2,11 +2,10 @@
 
 ```
 git status
-git add -A
-git commit -m "msg"
+git add <ไฟล์>
+git commit -m "ข้อความ"
 git log --oneline --graph
-git switch -c feature/x
-git merge feature/x
-git pull --rebase
+git branch -c feature/ชื่อ
+git merge ชื่อbranch
 git push
 ```

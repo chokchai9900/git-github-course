@@ -1,19 +1,10 @@
-title: Git & GitHub Course
-description: Learn Git & GitHub from beginner to advanced — clean & readable.
+title: คอร์ส Git & GitHub
+description: บทเรียนภาษาไทยตั้งแต่พื้นฐานจนถึงขั้นสูง
 markdown: kramdown
 theme: null
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-sitemap
-remote_theme: null
 permalink: pretty
 defaults:
   - scope:
       path: ""
     values:
       layout: default
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
