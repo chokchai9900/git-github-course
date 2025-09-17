@@ -1,4 +1,8 @@
 title: Git & GitHub Course
-description: A complete learning path from beginner to advanced (hands-on, friendly, practical).
-theme: jekyll-theme-cayman
+description: Learn Git & GitHub from Beginner to Advanced
+theme: jekyll-theme-minimal
 markdown: kramdown
+
+# Optional: custom logo
+logo: /assets/logo.png
+show_downloads: false
