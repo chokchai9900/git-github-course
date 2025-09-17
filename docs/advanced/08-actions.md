@@ -1,4 +1,4 @@
-# CI with GitHub Actions
+# GitHub Actions
 
 ```yaml
 name: ci
@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "Run your tests here"
+      - run: echo "Run tests"
 ```

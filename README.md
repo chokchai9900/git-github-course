@@ -1,11 +1,8 @@
-# Git & GitHub Course (Minimal Site)
+# Git & GitHub Course — Minimal Sidebar Theme
 
-This is a **minimal, distraction-free** Markdown website for a Git & GitHub course (Beginner → Advanced).
+A clean, sidebar‑based course website for GitHub Pages.  
+**Look & feel inspired by educational blogs (not identical).**
 
 ## Publish on GitHub Pages
-1. Create a new repo and push this project.
-2. Go to **Settings → Pages**.
-3. Source: **Deploy from a branch** → Branch: `main` (or your default), Folder: `/docs` → **Save**.
-4. Wait for the build; the site appears at your Pages URL.
-
-> We use the built-in **Minimal** theme with a tiny custom CSS.
+1. Push this repo to GitHub.
+2. Settings → Pages → Source: *Deploy from a branch* → Branch: your default → Folder: `/docs` → Save.

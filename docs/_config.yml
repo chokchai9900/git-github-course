@@ -1,11 +1,19 @@
 title: Git & GitHub Course
-description: Minimal, focused learning path from beginner to advanced.
-theme: jekyll-theme-minimal
+description: Learn Git & GitHub from beginner to advanced — clean & readable.
 markdown: kramdown
-kramdown:
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
+theme: null
 plugins:
   - jekyll-remote-theme
-remote_theme: pages-themes/minimal@v0.2.0
+  - jekyll-seo-tag
+  - jekyll-sitemap
+remote_theme: null
+permalink: pretty
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true

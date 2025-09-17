@@ -1,14 +1,11 @@
 # Merge vs Rebase
 
-- **Merge**: preserve history; creates a merge commit.
-- **Rebase**: rewrite commits onto a new base; linear history.
+- Merge keeps shape; Rebase makes history linear.
 
 ```bash
-# Merge
 git switch main
 git merge feature/x
 
-# Rebase
 git switch feature/x
 git rebase main
 ```

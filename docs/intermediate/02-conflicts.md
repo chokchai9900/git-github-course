@@ -2,7 +2,7 @@
 
 ```bash
 git merge feature/x   # or: rebase
-# edit files to resolve
+# fix files
 git add <file>
-git commit            # or: git rebase --continue
+git commit  # or git rebase --continue
 ```

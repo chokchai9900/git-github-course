@@ -1,0 +1,50 @@
+- section: Beginner
+  items:
+    - title: What is Git? Install
+      url: /beginner/01-intro/
+    - title: Setup & First Commit
+      url: /beginner/02-setup-first-commit/
+    - title: Status, Add, Commit, Log
+      url: /beginner/03-status-add-commit-log/
+    - title: Branching Basics
+      url: /beginner/04-branching-basics/
+    - title: Remote Basics & GitHub
+      url: /beginner/05-remote-basics-github/
+- section: Intermediate
+  items:
+    - title: Merge vs Rebase
+      url: /intermediate/01-merge-vs-rebase/
+    - title: Resolve Conflicts
+      url: /intermediate/02-conflicts/
+    - title: Stash, Tags, Releases
+      url: /intermediate/03-stash-tags/
+    - title: Ignore & Attributes
+      url: /intermediate/04-ignore-attributes/
+    - title: GitHub Workflow
+      url: /intermediate/05-github-workflow/
+- section: Advanced
+  items:
+    - title: Interactive Rebase
+      url: /advanced/01-interactive-rebase/
+    - title: Cherry‑pick, Reset, Reflog
+      url: /advanced/02-cherry-pick-reset-reflog/
+    - title: Bisect
+      url: /advanced/03-bisect/
+    - title: Hooks, Worktrees, Sparse
+      url: /advanced/04-hooks-worktrees-sparse/
+    - title: Submodules vs Subtrees
+      url: /advanced/05-submodule-subtree/
+    - title: GPG/SSH Signing
+      url: /advanced/06-signing/
+    - title: Git LFS
+      url: /advanced/07-lfs/
+    - title: GitHub Actions
+      url: /advanced/08-actions/
+- section: Extras
+  items:
+    - title: Cheat Sheet
+      url: /cheatsheet/
+    - title: Troubleshooting
+      url: /troubleshooting/
+    - title: Exercises
+      url: /exercises/
