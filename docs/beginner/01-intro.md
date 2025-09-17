@@ -1,28 +1,28 @@
 # Git คืออะไร และการติดตั้ง
 
-Git คือ **ระบบควบคุมเวอร์ชันแบบกระจาย (Distributed Version Control System - DVCS)**  
-ใช้สำหรับติดตามและจัดการการเปลี่ยนแปลงของไฟล์ในโครงการ โดยเฉพาะโค้ดโปรแกรม
+**Git** คือระบบควบคุมเวอร์ชันแบบกระจาย (Distributed Version Control System - DVCS) ใช้ติดตามการเปลี่ยนแปลงของไฟล์ในโปรเจกต์
+และช่วยให้ทำงานร่วมกันในทีมได้สะดวก
 
-## แนวคิดหลักของ Git
-- **Repository (Repo)**: ฐานข้อมูลเก็บประวัติทั้งหมด
-- **Commit**: การบันทึก snapshot ของไฟล์ พร้อมข้อความ
-- **Branch**: เส้นทางการพัฒนาที่แยกออกจากกัน
-- **Merge**: การรวม branch
-- **Remote**: repository ที่อยู่บน server เช่น GitHub
+## แนวคิดหลัก
+- **Repository (Repo)**: โฟลเดอร์โปรเจกต์ที่มีโฟลเดอร์ซ่อน `.git/` เก็บประวัติทั้งหมด
+- **Commit**: การบันทึก snapshot ของไฟล์ พร้อมข้อความอธิบาย
+- **Branch**: เส้นทางพัฒนาแยกจากกัน (เช่น `main`, `feature/login`)
+- **Merge/Rebase**: นำการเปลี่ยนแปลงจากสาขาหนึ่งไปรวมกับอีกสาขา
+- **Remote**: repo ที่อยู่บนเซิร์ฟเวอร์ เช่น GitHub
 
 ## ทำไมต้องใช้ Git
-- ทำงานร่วมกันในทีมได้ง่าย
-- ย้อนเวอร์ชันได้
-- ทดลอง feature ได้โดยไม่กระทบงานหลัก
+- ย้อนเวอร์ชันได้เมื่อพลาด
+- ทำงานหลายฟีเจอร์พร้อมกันได้ด้วย branch
+- ทำงานเป็นทีมแบบ PR/Review
 
-## การติดตั้ง Git
-### บน macOS
+## การติดตั้ง
+### macOS
 ```bash
 brew install git
 ```
-### บน Windows
-ดาวน์โหลดจาก [git-scm.com](https://git-scm.com/download/win)
-### บน Linux (Ubuntu/Debian)
+### Windows
+ดาวน์โหลด **Git for Windows** (มี Git Bash) จาก <https://git-scm.com/download/win>
+### Linux (Ubuntu/Debian)
 ```bash
 sudo apt-get update
 sudo apt-get install git

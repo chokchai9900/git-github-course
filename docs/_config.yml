@@ -1,5 +1,5 @@
 title: คอร์ส Git & GitHub
-description: บทเรียนภาษาไทยตั้งแต่พื้นฐานจนถึงขั้นสูง
+description: บทเรียนภาษาไทยตั้งแต่พื้นฐานจนถึงขั้นสูง (Beginner → Advanced)
 markdown: kramdown
 theme: null
 permalink: pretty
@@ -8,3 +8,7 @@ defaults:
       path: ""
     values:
       layout: default
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true

@@ -1,50 +1,50 @@
 - section: Beginner
   items:
-    - title: Git คืออะไร และการติดตั้ง
+    - title: "Git คืออะไร และการติดตั้ง"
       url: /beginner/01-intro/
-    - title: การตั้งค่า Git และ commit ครั้งแรก
+    - title: "การตั้งค่า Git และ commit ครั้งแรก"
       url: /beginner/02-setup-first-commit/
-    - title: ทำงานกับไฟล์: status, add, commit, log
+    - title: "ทำงานกับไฟล์: status, add, commit, log"
       url: /beginner/03-status-add-commit-log/
-    - title: การใช้งาน branch เบื้องต้น
+    - title: "การใช้งาน branch เบื้องต้น"
       url: /beginner/04-branching-basics/
-    - title: การทำงานกับ remote และ GitHub
+    - title: "การทำงานกับ remote และ GitHub"
       url: /beginner/05-remote-basics-github/
 - section: Intermediate
   items:
-    - title: ความแตกต่างระหว่าง merge และ rebase
+    - title: "ความแตกต่างระหว่าง merge และ rebase"
       url: /intermediate/01-merge-vs-rebase/
-    - title: การแก้ conflict
+    - title: "การแก้ conflict"
       url: /intermediate/02-conflicts/
-    - title: การใช้ stash, tag และ release
+    - title: "การใช้ stash, tag และ release"
       url: /intermediate/03-stash-tags/
-    - title: การใช้ .gitignore และ .gitattributes
+    - title: "การใช้ .gitignore และ .gitattributes"
       url: /intermediate/04-ignore-attributes/
-    - title: การทำงานร่วมกันบน GitHub
+    - title: "การทำงานร่วมกันบน GitHub (Issues, PR, Review)"
       url: /intermediate/05-github-workflow/
 - section: Advanced
   items:
-    - title: การใช้ interactive rebase
+    - title: "การใช้ interactive rebase"
       url: /advanced/01-interactive-rebase/
-    - title: Cherry-pick, reset และ reflog
+    - title: "Cherry-pick, reset และ reflog"
       url: /advanced/02-cherry-pick-reset-reflog/
-    - title: การใช้ bisect เพื่อตามหา commit ที่ผิดพลาด
+    - title: "การใช้ bisect เพื่อตามหา commit ที่ผิดพลาด"
       url: /advanced/03-bisect/
-    - title: Git hook, worktree, sparse checkout
+    - title: "Git hooks, worktrees, sparse checkout"
       url: /advanced/04-hooks-worktrees-sparse/
-    - title: Submodule และ subtree
+    - title: "Submodule และ subtree"
       url: /advanced/05-submodule-subtree/
-    - title: การเซ็น commit ด้วย GPG/SSH
+    - title: "การเซ็น commit ด้วย GPG/SSH"
       url: /advanced/06-signing/
-    - title: การใช้ Git LFS
+    - title: "การใช้ Git LFS"
       url: /advanced/07-lfs/
-    - title: การทำงานอัตโนมัติด้วย GitHub Actions
+    - title: "การทำงานอัตโนมัติด้วย GitHub Actions"
       url: /advanced/08-actions/
 - section: Extras
   items:
-    - title: Cheat Sheet
+    - title: "Cheat Sheet"
       url: /cheatsheet/
-    - title: Troubleshooting
+    - title: "Troubleshooting"
       url: /troubleshooting/
-    - title: Exercises
+    - title: "Exercises"
       url: /exercises/

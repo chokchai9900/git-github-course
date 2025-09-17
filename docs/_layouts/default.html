@@ -5,29 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script defer src="{{ '/assets/js/site.js' | relative_url }}"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
       <h1><a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      <p>{{ site.description }}</p>
+      <p class="desc">{{ site.description }}</p>
     </div>
   </header>
   <div class="page">
     <aside class="sidebar">
-      {%- for group in site.data.nav -%}
+      <input id="nav-search" type="text" placeholder="ค้นหาเนื้อหา…" aria-label="ค้นหา">
+      {% for group in site.data.nav %}
       <div class="nav-group">
         <div class="nav-group-title">{{ group.section }}</div>
-        <ul>
-        {%- for item in group.items -%}
-          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-        {%- endfor -%}
+        <ul class="nav-list">
+          {% for item in group.items %}
+          <li><a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
         </ul>
       </div>
-      {%- endfor -%}
+      {% endfor %}
     </aside>
     <main class="content">
-      {{ content }}
+      <article class="markdown-body">
+        {{ content }}
+      </article>
+      <footer class="footer">© {{ 'now' | date: '%Y' }} · {{ site.title }}</footer>
     </main>
   </div>
 </body>
