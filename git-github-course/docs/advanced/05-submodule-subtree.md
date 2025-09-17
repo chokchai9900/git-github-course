@@ -1,3 +1,0 @@
-# Submodules & Subtrees
-
-Differences explained.
